@@ -110,6 +110,10 @@
     }
 }
 @media(max-width:991px){
+    .delivery img {
+        margin-right: 25px;
+    }
+
     .banner-content {
         margin-top: 80px !important;
     }
@@ -238,6 +242,18 @@
     }
 }
 @media(max-width:767px){
+    .navbar-brand img {
+        height: 38px;
+    }
+    .delivery img {
+        margin-right: 10px;
+        width: 35px;
+    }
+    .delivery p {
+        font-size: 14.7px;
+        font-weight: 600;
+    }
+
    .navbar-nav{
     flex-direction: row;
     justify-content: center;
@@ -370,6 +386,9 @@
     }
 }
 @media(max-width:575px){
+    .navbar-brand img {
+        height: 38px;
+    }
     .navbar-nav{
         flex-direction: column;
         justify-content: center;
